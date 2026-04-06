@@ -1,61 +1,107 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 💰 Porquinho Turbo
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Personal finance management application built with Laravel.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Porquinho Turbo is a web application designed to help users organize and manage personal financial information through a structured and intuitive interface.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The project focuses on financial control, usability, and clean architecture following Laravel best practices.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🧠 Features
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- 💸 Personal finance organization  
+- 📊 Financial data management  
+- 👤 User interaction through a web interface  
+- 🔐 Application structure ready for authentication and access control  
+- ⚡ Modern frontend workflow with Vite and Tailwind CSS  
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🛠 Tech Stack
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- PHP  
+- Laravel  
+- MySQL  
+- Tailwind CSS  
+- Vite  
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🏗 Architecture
 
-## Contributing
+The application follows Laravel's MVC architecture:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Models** → represent data and relationships  
+- **Controllers** → handle business logic  
+- **Views** → render the user interface  
+- **Routes** → define application endpoints  
+- **Database** → manages structured persistence  
 
-## Code of Conduct
+This structure improves maintainability, organization, and scalability.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 📦 Installation
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+```bash
+git clone https://github.com/janailsonf-a/Porquinho-Turbo
+cd Porquinho-Turbo
 
-## License
+composer install
+cp .env.example .env
+php artisan key:generate
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 🗄 Database
+
+```bash
+php artisan migrate
+```
+
+Configure your database credentials in the `.env` file before running migrations.
+
+---
+
+## ▶️ Running
+
+```bash
+npm install
+npm run dev
+php artisan serve
+```
+
+---
+
+## 🌍 Use Cases
+
+- Personal finance management  
+- Financial data organization  
+- Learning and demonstrating Laravel application structure  
+
+---
+
+## 📸 Screenshots
+
+<img width="1920" height="935" src="https://github.com/user-attachments/assets/7992b962-1e75-40d7-864f-ff1706819496" />
+<img width="1920" height="935" src="https://github.com/user-attachments/assets/8296fa70-2df5-4d49-bb75-cf3ee0ceb9da" /> 
+<img width="1920" height="935" alt="Captura de tela de 2026-04-06 14-50-01" src="https://github.com/user-attachments/assets/b368cf33-8439-452f-b222-3c78ee266148" />
+<img width="1920" height="935" src="https://github.com/user-attachments/assets/475836c8-7099-407d-a664-9372bf7f2c7f" />
+
+---
+
+## 🧠 Notes
+
+This project demonstrates the use of Laravel with a modern frontend workflow using Tailwind CSS and Vite.
+
+---
+
+## 👨‍💻 Author
+
+Developed by Janailson Almeida
